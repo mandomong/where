@@ -11,10 +11,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class Hello {
 
     // application.properties 가져오기
-    @Value("${code.secret}")
-    public String secret;
+    //@Value("${code.secret}")
+    //public String secret;
 
-    @GetMapping("/test")
+    @GetMapping("/hello")
     public String hello(){
         return "Hello Super Coding World";
     }
