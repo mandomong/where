@@ -8,6 +8,8 @@
     <title>Cities</title>
 </head>
 <body>
+    <h2>현슈깅♥</h2>
+    <img src="/images/hs.jpg" width="250"/>
     <h2>List of cities</h2>
     <table>
         <tr>
