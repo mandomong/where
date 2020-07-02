@@ -33,10 +33,10 @@
             </div>
         </nav>
         <!-- Masthead-->
-        <header class="masthead bg-primary text-white text-center">
+        <header class="masthead bg-amber text-white text-center">
             <div class="container d-flex align-items-center flex-column">
-                <!-- Masthead Avatar Image--><img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="" /><!-- Masthead Heading-->
-                <h1 class="masthead-heading text-uppercase mb-0">투데이 플레이스</h1>
+                <!-- Masthead Avatar Image--><img class="masthead-avatar mb-5 rounded-circle" src="assets/img/home_main.jpg" alt="" /><!-- Masthead Heading-->
+                <h1 class="masthead-heading text-uppercase mb-0">투데이플레이스</h1>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
@@ -44,7 +44,9 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">Mandoo - Computer Programmer</p>
+                <p class="masthead-subheading font-weight-light mb-0 font-weight-bold">#내돈내산 #리얼리뷰 #전국맛집</p>
+                <p class="masthead-subheading font-weight-light mb-0 p-3"><a class="btn btn-outline-light btn-social mx-1" href="https://www.instagram.com/today.place"><i class="fab fa-fw fa-instagram"></i></a><a class="btn btn-outline-light btn-social mx-1" href="https://blog.naver.com/todayplace"><i class="fab fa-internet-explorer"></i></a></p>
+
             </div>
         </header>
         <!-- Portfolio Section-->
@@ -121,7 +123,7 @@
         <section class="page-section bg-primary text-white mb-0" id="about">
             <div class="container">
                 <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white">투데이플레이스는?</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-white">가장 트렌디한 맛집 공유 플랫폼</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
@@ -130,13 +132,15 @@
                 </div>
                 <!-- About Section Content-->
                 <div class="row">
-                    <div class="col-lg-4 ml-auto"><p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p></div>
-                    <div class="col-lg-4 mr-auto"><p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
+                    <div class="col-lg-4 ml-auto"><p class="lead font-weight-bold">최자로드, 이영자 맛집 처럼 이제 나만의 맛집 지도를 만들고 공유하세요</p></div>
+                    <div class="col-lg-4 mr-auto"><p class="lead font-weight-bold">매일 마주하는 즐거운 식사를 가볍게 기록해보세요</p></div>
                 </div>
                 <!-- About Section Button-->
+                <!--
                 <div class="text-center mt-4">
                     <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/themes/freelancer/"><i class="fas fa-download mr-2"></i>Free Download!</a>
                 </div>
+                -->
             </div>
         </section>
         <!-- Contact Section-->
@@ -193,13 +197,13 @@
                 <div class="row">
                     <!-- Footer Location-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Location</h4>
-                        <p class="lead mb-0">2215 John Daniel Drive<br />Clark, MO 65243</p>
+                        <h4 class="text-uppercase mb-4">문의는 인스타 DM 💌</h4>
+                        <p class="lead mb-0 font-weight-bold">내돈내고 먹고 즐기는 리얼리뷰👩‍💻🧑‍💻<br />직장인 매니저/촬영/탐험가 모집<br />메뉴/핫플레이스 추천 환영</p>
                     </div>
                     <!-- Footer Social Icons-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Around the Web</h4>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-instagram"></i></a><a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-internet-explorer"></i></a>
+                        <h4 class="text-uppercase mb-4">미리 만나는 투데이플레이스</h4>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.instagram.com/today.place"><i class="fab fa-fw fa-instagram"></i></a><a class="btn btn-outline-light btn-social mx-1" href="https://blog.naver.com/todayplace"><i class="fab fa-internet-explorer"></i></a>
                     </div>
                     <!-- Footer About Text-->
                     <div class="col-lg-4">
