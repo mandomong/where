@@ -6098,8 +6098,12 @@ a.close.disabled {
   background-color: #1abc9c !important;
 }
 
-.bg-amber {
-  background-color: #F57C00 !important;
+.bg-skyblue {
+  background-color: #9ECBE1 !important;
+}
+
+.bg-gray {
+  background-color: #D6D6D6 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6110,6 +6114,10 @@ button.bg-primary:focus {
 
 .bg-secondary {
   background-color: #2c3e50 !important;
+}
+
+.bg-yello {
+  background-color: #EBE0D4 !important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
