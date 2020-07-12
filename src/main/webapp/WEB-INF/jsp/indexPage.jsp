@@ -103,7 +103,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-home-cropping" src="assets/img/portfolio/food_img1.jpg" alt="" />
+                            <img class="img-fluid" src="assets/img/portfolio/food_img1.jpg" alt="" />
                         </div>
                     </div>
                     <!-- Portfolio Item 2-->
@@ -112,7 +112,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-home-cropping" src="assets/img/portfolio/food_img2.jpg" alt="" />
+                            <img class="img-fluid" src="assets/img/portfolio/food_img2.jpg" alt="" />
                         </div>
                     </div>
                     <!-- Portfolio Item 3-->
@@ -121,7 +121,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-home-cropping" src="assets/img/portfolio/food_img3.jpg" alt="" />
+                            <img class="img-fluid" src="assets/img/portfolio/food_img3.jpg" alt="" />
                         </div>
                     </div>
                     <!-- Portfolio Item 4-->
@@ -130,7 +130,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-home-cropping" src="assets/img/portfolio/food_img4.jpg" alt="" />
+                            <img class="img-fluid" src="assets/img/portfolio/food_img4.jpg" alt="" />
                         </div>
                     </div>
                     <!-- Portfolio Item 5-->
@@ -139,7 +139,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-home-cropping" src="assets/img/portfolio/food_img5.jpg" alt="" />
+                            <img class="img-fluid" src="assets/img/portfolio/food_img5.jpg" alt="" />
                         </div>
                     </div>
                     <!-- Portfolio Item 6-->
@@ -148,7 +148,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-home-cropping" src="assets/img/portfolio/food_img6.jpg" alt="" />
+                            <img class="img-fluid" src="assets/img/portfolio/food_img6.jpg" alt="" />
                         </div>
                     </div>
                 </div>
