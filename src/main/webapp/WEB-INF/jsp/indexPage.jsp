@@ -26,12 +26,47 @@
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">오늘의 맛집</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">투데이플레이스는?</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" data-toggle="modal" data-target="#exampleModal" href="#" >로그인/회원가입</a></li>
+                        <!--
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">문의</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="showCities">DB 테스트</a></li>
+                        -->
                     </ul>
                 </div>
             </div>
         </nav>
+
+        <!-- Login Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header text-center">
+                        <h4 class="modal-title w-100 font-weight-bold">Sign in</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body mx-3">
+                        <div class="md-form mb-5">
+                            <i class="fas fa-envelope prefix grey-text"></i>
+                            <input type="email" id="defaultForm-email" class="form-control validate">
+                            <label data-error="wrong" data-success="right" for="defaultForm-email">Your email</label>
+                        </div>
+
+                        <div class="md-form mb-4">
+                            <i class="fas fa-lock prefix grey-text"></i>
+                            <input type="password" id="defaultForm-pass" class="form-control validate">
+                            <label data-error="wrong" data-success="right" for="defaultForm-pass">Your password</label>
+                        </div>
+
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center">
+                        <button class="btn btn-default">Login</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Masthead-->
         <header class="masthead bg-skyblue text-white text-center">
             <div class="container d-flex align-items-center flex-column">
@@ -68,7 +103,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="" />
+                            <img class="img-home-cropping" src="assets/img/portfolio/food_img1.jpg" alt="" />
                         </div>
                     </div>
                     <!-- Portfolio Item 2-->
@@ -77,7 +112,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/cake.png" alt="" />
+                            <img class="img-home-cropping" src="assets/img/portfolio/food_img2.jpg" alt="" />
                         </div>
                     </div>
                     <!-- Portfolio Item 3-->
@@ -86,7 +121,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="" />
+                            <img class="img-home-cropping" src="assets/img/portfolio/food_img3.jpg" alt="" />
                         </div>
                     </div>
                     <!-- Portfolio Item 4-->
@@ -95,7 +130,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/game.png" alt="" />
+                            <img class="img-home-cropping" src="assets/img/portfolio/food_img4.jpg" alt="" />
                         </div>
                     </div>
                     <!-- Portfolio Item 5-->
@@ -104,7 +139,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/safe.png" alt="" />
+                            <img class="img-home-cropping" src="assets/img/portfolio/food_img5.jpg" alt="" />
                         </div>
                     </div>
                     <!-- Portfolio Item 6-->
@@ -113,7 +148,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/submarine.png" alt="" />
+                            <img class="img-home-cropping" src="assets/img/portfolio/food_img6.jpg" alt="" />
                         </div>
                     </div>
                 </div>
@@ -152,7 +187,7 @@
                     <!-- Footer Location-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <h4 class="text-uppercase mb-4">문의는 인스타 DM 💌</h4>
-                        <p class="lead mb-0 font-weight-bold">내돈내고 먹고 즐기는 리얼리뷰👩‍💻🧑‍💻<br />직장인 매니저/촬영/탐험가 모집<br />메뉴/핫플레이스 추천 환영</p>
+                        <p class="lead mb-0 font-weight-bold">내돈내고 먹고 즐기는 리얼리뷰<br />직장인 매니저/촬영/탐험가 모집<br />메뉴/핫플레이스 추천 환영</p>
                     </div>
                     <!-- Footer Social Icons-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
@@ -161,8 +196,9 @@
                     </div>
                     <!-- Footer About Text-->
                     <div class="col-lg-4">
-                        <h4 class="text-uppercase mb-4">About Freelancer</h4>
-                        <p class="lead mb-0">Freelance is a free to use, MIT licensed Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                        <h4 class="text-uppercase mb-4">ABOUT DEVELOPER</h4>
+                        <p class="lead mb-0">WEB / IOS / Android application developer</p>
+                        <!--<p class="lead mb-0">Freelance is a free to use, MIT licensed Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>-->
                     </div>
                 </div>
             </div>
@@ -187,16 +223,44 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal1Label">Log Cabin</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal1Label">남포면옥</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="" /><!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                    <button class="btn btn-primary" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                    <!-- <img class="img-fluid rounded mb-5" src="assets/img/portfolio/food_img1.jpg" alt="" /> -->
+                                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/food_img1.jpg" alt="First slide">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/food_img2.jpg" alt="Second slide">
+                                            </div>
+                                        </div>
+                                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+                                    <p class="mb-5">#남포면옥 #을지로입구역<br>
+                                        #어복쟁반 드셔보셨나욤~~🥺<br>
+                                        #코로나 도 가볍게 물리칠 건강한 맛집!!🤗<br>
+                                        요즘 같은 어려운 시기에 더 잘 먹구 이겨내야해요 😬😬<br>
+                                        인친님들도 항상 마스크 쓰고 손잘 씻구 건강에 유의하길 바래요<br>
+                                        물론 맛있는거 먹으면서 힘내는거 잊으시면 안되겠지요??<br>
+                                        진급 기념 파티!! 오늘은 내가 쏜다!!<br><br>
+                                        위치<br>
+                                        서울 중구 을지로3길 24
+                                        </p>
+                                    <p class="mb-5">#서울맛집 #서울데이트 #을지로맛집 #을지로입구역맛집 #시청맛집 #시청데이트 #직장인맛집 #직장인스타그램 #내돈내산 #리얼리뷰 #진급 #진급축하 #월급날</p>
+                                    <button class="btn btn-primary" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>닫기</button>
                                 </div>
                             </div>
                         </div>

@@ -478,6 +478,13 @@ mark,
   height: auto;
 }
 
+.img-home-cropping {
+  width: 312px;
+  /*
+  height: 225px;
+   */
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
