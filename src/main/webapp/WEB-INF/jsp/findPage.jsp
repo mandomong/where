@@ -21,13 +21,13 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg bg-yello text-uppercase fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top">투데이플레이스</a><button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
+                <a class="navbar-brand js-scroll-trigger" href="/">투데이플레이스</a><button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">오늘의 맛집</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">투데이플레이스는?</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="/find">찾아보기/공유하기</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" data-toggle="modal" data-target="#exampleModal" href="#" >로그인/회원가입</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" data-toggle="modal" data-target="#exampleModal" href="/findPage" >로그인/회원가입</a></li>
                         <!--
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">문의</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="showCities">DB 테스트</a></li>
@@ -68,24 +68,25 @@
             </div>
         </div>
 
-        <!-- Masthead-->
-        <header class="masthead bg-skyblue text-white text-center">
-            <div class="container d-flex align-items-center flex-column">
-                <!-- Masthead Avatar Image--><img class="masthead-avatar mb-5 rounded-circle" src="assets/img/home_main.jpg" alt="" /><!-- Masthead Heading-->
-                <h1 class="masthead-heading text-uppercase mb-0">투데이플레이스</h1>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0 font-weight-bold">#내돈내산 #리얼리뷰 #전국맛집 #맛집공유</p>
-                <p class="masthead-subheading font-weight-light mb-0 p-3"><a class="btn btn-outline-light btn-social mx-1" href="https://www.instagram.com/today.place"><i class="fab fa-fw fa-instagram"></i></a><a class="btn btn-outline-light btn-social mx-1" href="https://blog.naver.com/todayplace"><i class="fab fa-internet-explorer"></i></a></p>
+        <!-- Map Section-->
+        <div class="bg-skyblue text-white text-center" style="padding-top: calc(6rem);">
 
+            <iframe class="container" src="https://maps.google.com/maps?q=seoul&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0" style="height: 30rem;" allowfullscreen></iframe>
+
+        </div>
+
+        <!-- Masthead-->
+        <%--<header class="masthead bg-skyblue text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <div id="map-container-google-2" class="z-depth-1-half map-container" style="height: 500px">
+                    <iframe src="https://maps.google.com/maps?q=chicago&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                            style="border:0" allowfullscreen></iframe>
+                </div>
             </div>
-        </header>
-        <!-- Portfolio Section-->
+        </header>--%>
+
+        <!-- Content Section-->
         <section class="page-section portfolio" id="portfolio">
             <div class="container">
                 <!-- Portfolio Section Heading-->
@@ -155,31 +156,6 @@
                 </div>
             </div>
         </section>
-        <!-- About Section-->
-        <section class="page-section bg-primary text-white mb-0" id="about">
-            <div class="container">
-                <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white">가장 트렌디한 맛집 공유 플랫폼</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- About Section Content-->
-                <div class="row">
-                    <div class="col-lg-4 ml-auto"><p class="lead font-weight-bold">최자로드, 이영자 맛집 처럼 이제 나만의 맛집 지도를 만들고 공유하세요</p></div>
-                    <div class="col-lg-4 mr-auto"><p class="lead font-weight-bold">매일 마주하는 즐거운 식사를 가볍게 기록해보세요</p></div>
-                </div>
-                <!-- About Section Button-->
-                <!--
-                <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/themes/freelancer/"><i class="fas fa-download mr-2"></i>Free Download!</a>
-                </div>
-                -->
-            </div>
-        </section>
-        <!-- Contact Section-->
 
         <!-- Footer-->
         <footer class="footer text-center">
