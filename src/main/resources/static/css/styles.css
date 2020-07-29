@@ -575,6 +575,12 @@ pre code {
   margin-left: auto;
 }
 
+.container-map {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
@@ -4351,6 +4357,7 @@ input[type=button].btn-block {
   background-clip: border-box;
   border: 0.125rem solid rgba(0, 0, 0, 0.125);
   border-radius: 0.5rem;
+  margin-top: 0.7rem; // 카드 사이의 간격 조정
 }
 .card > hr {
   margin-right: 0;
@@ -6118,6 +6125,10 @@ button.bg-primary:focus {
 
 .bg-yello {
   background-color: #EBE0D4 !important;
+}
+
+.bg-orange {
+  background-color: #ff9966 !important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -10145,7 +10156,7 @@ h3 {
 }
 .masthead {
   padding-top: calc(6rem + 74px);
-  padding-bottom: 6rem;
+  padding-bottom: 1.5rem;
 }
 .masthead .masthead-heading {
   font-size: 2.75rem;
@@ -10273,3 +10284,16 @@ form .row:first-child .floating-label-form-group {
 }
 
 /* google map */
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:50%;
+  position:relative;
+  height:0;
+}
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
