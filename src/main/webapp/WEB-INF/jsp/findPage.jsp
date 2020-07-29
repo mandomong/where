@@ -69,7 +69,7 @@
         </div>
 
         <!-- Map Section-->
-        <div class="bg-skyblue text-white text-center" style="padding-top: calc(6rem);">
+        <div class="bg-skyblue text-white text-center" style="padding-top: 8rem; padding-bottom: 1rem">
 
             <iframe class="container" src="https://maps.google.com/maps?q=seoul&t=&z=13&ie=UTF8&iwloc=&output=embed"
                     frameborder="0" style="height: 30rem;" allowfullscreen></iframe>
